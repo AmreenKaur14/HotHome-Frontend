@@ -1,0 +1,41 @@
+/* Components/Navbar.css */
+
+.navbar {
+  background-color: #3d250f;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1; /* Takes as much space as it can */
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: white; /* Set font color to white */
+  font-size: 1.2rem; /* Adjusted font size */
+}
+
+.nav-right {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px; /* Adjusted to margin-left */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem; /* Adjusted font size */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-item a:hover {
+  color: #ffc107; /* Change color on hover, you can adjust it */
+}
