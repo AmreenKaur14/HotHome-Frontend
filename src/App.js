@@ -6,8 +6,8 @@ import Main from './Components/Main';
 import './App.css';
 import Permit from './Components/Permit';
 import Contact from './Components/Contact';
+import Apartment from './Components/Apartment';
 
-const Apartment = () => <div>Apartment Content</div>;
 
 const App = () => {
   return (
