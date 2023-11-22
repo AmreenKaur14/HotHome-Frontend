@@ -1,0 +1,13 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
