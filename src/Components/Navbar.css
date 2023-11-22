@@ -7,10 +7,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 }
 
 .nav-left {
   flex: 1; /* Takes as much space as it can */
+  margin-left: 50px;
 }
 
 .nav-left a {
@@ -23,6 +25,7 @@
   list-style: none;
   padding: 0;
   display: flex;
+  margin-right: 50px;
 }
 
 .nav-item {
